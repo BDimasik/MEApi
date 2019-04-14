@@ -1,7 +1,6 @@
 package com.mineexperts.api;
 
-import com.mineexperts.api.utils.Message;
-import com.mineexperts.api.utils.MessageApi;
+import com.mineexperts.api.messages.MessageApi;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
