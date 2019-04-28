@@ -1,4 +1,4 @@
-main: com.mineexperts.api.Main
+main: com.mineexperts.api.Api
 name: MineExpertsApi
 version: 1.0
 authors: [Dimasik, MasterCapeXD]
