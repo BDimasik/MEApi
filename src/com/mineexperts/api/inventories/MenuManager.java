@@ -6,7 +6,11 @@ Created by Dimasik. 20.04.2019
 public interface MenuManager {
     Menu createMenu();
 
-    Button createButton(int slot);
+    PageableMenu createPageableMenu();
+
+    Button createButton();
 
     MenuHolder createHolder();
+
+    Page createPage(int slots, MenuHolder customHolder, String name);
 }

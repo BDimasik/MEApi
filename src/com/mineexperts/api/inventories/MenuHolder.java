@@ -5,8 +5,8 @@ import org.bukkit.inventory.InventoryHolder;
 /*
 Created by Dimasik. 21.04.2019
 */
-public interface MenuHolder extends InventoryHolder {
-    MenuHolder setMenu(Menu menu);
+public interface MenuHolder<T extends Menu> extends InventoryHolder {
+    MenuHolder setMenu(T menu);
 
-    Menu getMenu();
+    T getMenu();
 }

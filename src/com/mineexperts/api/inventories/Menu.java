@@ -5,8 +5,8 @@ import org.bukkit.inventory.Inventory;
 /*
 Created by Dimasik. 21.04.2019
 */
-public interface Menu {
-    Menu addButtons(Button... buttons);
+public interface Menu<T extends Menu> {
+    T addButtons(Button... buttons);
 
     Button getButtonOrDefault(int slot);
 

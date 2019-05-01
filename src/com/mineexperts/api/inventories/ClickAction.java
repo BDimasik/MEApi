@@ -8,5 +8,5 @@ Created by Dimasik. 21.04.2019
 */
 @FunctionalInterface
 public interface ClickAction {
-    void runClickAction(Player clickedPlayer, int clickedSlot, ItemStack clickedItem);
+    void runClickAction(Menu menu, Player clickedPlayer, int clickedSlot, ItemStack clickedItem);
 }
